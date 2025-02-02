@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: node-app
+  namespace: argocd
+spec:
+  project: default
+  destination:
+    namespace: default
+    server: https://kubernetes.default.svc
+  source:
+    repoURL: "https://github.com/worthym330/k8s-monitoring.git"
+    targetRevision: main
+    path: k8s/
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
