@@ -1,0 +1,20 @@
+{
+  "name": "helms",
+  "version": "1.0.0",
+  "description": "<img src=imgs/cover.png>",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnbedeir/End-to-End-DevOps-AWS-Nodejs-Postgres.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnbedeir/End-to-End-DevOps-AWS-Nodejs-Postgres/issues"
+  },
+  "homepage": "https://github.com/johnbedeir/End-to-End-DevOps-AWS-Nodejs-Postgres#readme"
+}
