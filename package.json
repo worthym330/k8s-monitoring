@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/johnbedeir/End-to-End-DevOps-AWS-Nodejs-Postgres/issues"
   },
-  "homepage": "https://github.com/johnbedeir/End-to-End-DevOps-AWS-Nodejs-Postgres#readme"
+  "homepage": "https://github.com/johnbedeir/End-to-End-DevOps-AWS-Nodejs-Postgres#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.9.6"
+  }
 }
